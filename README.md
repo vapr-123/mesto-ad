@@ -1,1 +1,1 @@
-https://github.com/IT23-2/mesto-ad
+https://github.com/vapr-123/mesto-ad
