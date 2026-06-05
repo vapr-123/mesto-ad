@@ -29,9 +29,9 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PUBLIC_PAGES_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages   # любая ветка, кроме main
+          publish_branch: gh-pages   
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'deploy: update build'
