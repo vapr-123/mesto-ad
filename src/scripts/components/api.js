@@ -1,7 +1,7 @@
 const config = {
   baseUrl: "https://mesto.nomoreparties.co/v1/apf-cohort-202",
   headers: {
-    authorization: "70292fc5-f2d7-48a4-acef-034d1d65fbe7",
+    authorization: "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",
     "Content-Type": "application/json",
   },
 };
