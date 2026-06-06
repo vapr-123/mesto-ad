@@ -4,7 +4,7 @@ const config = {
     authorization: "80775265-fdd2-4d4f-b14d-57ee50642a61",
     "Content-Type": "application/json",
   },
-};
+}; 
 
 const getResponseData = (res) => {
   return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
